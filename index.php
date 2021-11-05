@@ -5,4 +5,10 @@
     $lado = 7;
     $area = calcularAreaCuadrado($lado); 
     $resultado .= "<p>El &aacute;rea de un cuadrado de lado $lado es $area</p>";
+
+    $resultado.= "<h3>La media de 8, 12 y 25 es ".calcularMedia3(8, 12, 25)."</h3>"; 
+
+    $resultado .= mostrarMensajeh3("Ejemplo de función sin valor de retorno"); 
+    $resultado.= mostrarLinHorizontal(); 
+
 ?>

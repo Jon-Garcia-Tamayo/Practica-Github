@@ -1,12 +1,13 @@
 <?php
     include "cabecera.php";
- ?>
+?>
+
 <div class='resultado'>
-<?php    
+<?php
     echo $resultado;
-   ?>
+?>
 </div>
+
 <?php
     include "pie.php";
-    
- ?>
+?>
